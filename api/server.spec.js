@@ -79,4 +79,13 @@ describe('server.js', () => {
         })
 
     })
+
+    describe('GET /games/:id', () => {
+        it('should return a 404 if game is not in database', async () => {
+    
+                const res = await request(server)
+                    .get('/games/4')
+                expect(res.status).toBe(404);
+        })
+    }) 
 })
