@@ -26,8 +26,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
 
-The describe global is used to wrap around all of the it global tests.  Describe describes an entire component you are going to write tests for
-and the its within the describe are the actual tests
+The describe global is used to wrap around all of the it tests.  Describe describes an entire component or endpoint you are going to write tests for and the its within the describe function are the actual tests
 
 1. What is the point of `Test Driven Development`? What do you think about this approach?
 
